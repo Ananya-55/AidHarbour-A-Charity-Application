@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="35dp"
+    android:padding="8dp"
+    android:background="@drawable/gradient_background">
+
+
+    <RelativeLayout
+        android:layout_width="416dp"
+        android:layout_height="230dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25">
+
+        <TextView
+            android:id="@+id/label1_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:padding="16dp"
+            android:text="Name of shelter :"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/text1_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_marginStart="-10dp"
+            android:layout_toEndOf="@id/label1_textview"
+            android:padding="16dp"
+            android:text=""
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/label2_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_below="@id/label1_textview"
+            android:layout_marginTop="-14dp"
+            android:padding="16dp"
+            android:text="Type of donation:"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/text2_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_below="@id/text1_textview"
+            android:layout_marginStart="-12dp"
+            android:layout_marginTop="-13dp"
+            android:layout_toEndOf="@id/label2_textview"
+            android:padding="16dp"
+            android:text=""
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/label4_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="333dp"
+            android:layout_marginBottom="93dp"
+            android:padding="16dp"
+            android:text="From: "
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/text4_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-101dp"
+            android:layout_marginBottom="93dp"
+            android:layout_toEndOf="@id/label1_textview"
+            android:padding="16dp"
+            android:text=""
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/label5_textview"
+            android:layout_width="123dp"
+            android:layout_height="53dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="293dp"
+            android:layout_marginBottom="56dp"
+            android:padding="16dp"
+            android:text="Volunteer: "
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/text5_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-66dp"
+            android:layout_marginBottom="56dp"
+            android:layout_toEndOf="@id/label1_textview"
+            android:padding="16dp"
+            android:text=""
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
