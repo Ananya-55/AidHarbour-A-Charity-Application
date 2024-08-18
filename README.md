@@ -20,9 +20,9 @@ AidHarbour is a charity application designed to streamline charitable activities
 - **Firebase Account**: Create a Firebase project at [Firebase Console](https://console.firebase.google.com/).
 
 ### Clone the Repository
-    ```bash
-    git clone https://github.com/Ananya-55/AidHarbour-A-Charity-Application.git 
-    ```
+```gradle
+git clone https://github.com/Ananya-55/AidHarbour-A-Charity-Application.git 
+```    
 
 ### Setup the Firebase
 
