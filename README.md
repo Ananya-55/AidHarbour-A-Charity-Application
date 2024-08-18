@@ -21,7 +21,8 @@ AidHarbour is a charity application designed to streamline charitable activities
 
 ### Clone the Repository
     ```bash
-    git clone https://github.com/Ananya-55/AidHarbour-A-Charity-Application.git  
+    git clone https://github.com/Ananya-55/AidHarbour-A-Charity-Application.git 
+    ```
 
 ### Setup the Firebase
 
