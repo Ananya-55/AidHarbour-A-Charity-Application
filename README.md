@@ -45,7 +45,7 @@ AidHarbour is a charity application designed to streamline charitable activities
 
 ### Update `build.gradle` Files:
 
-In the **root-level** `build.gradle` file, add the Google services classpath:
+In the root-level build.gradle file, add the Google services classpath:
 
 ```gradle
 buildscript {
@@ -63,6 +63,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-database:20.2.0'
     implementation 'com.google.android.gms:play-services-maps:18.1.0'
 }
+
 
 ### Sync the project:
 
