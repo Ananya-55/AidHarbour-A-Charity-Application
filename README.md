@@ -20,6 +20,8 @@ AidHarbour is a charity application designed to streamline charitable activities
 - **Firebase Account**: Create a Firebase project at [Firebase Console](https://console.firebase.google.com/).
 
 ### Clone the Repository
+    ```bash
+    git clone https://github.com/Ananya-55/AidHarbour-A-Charity-Application.git  
 
 ### Setup the Firebase
 
@@ -41,11 +43,12 @@ AidHarbour is a charity application designed to streamline charitable activities
 2. Navigate to the "Authentication" section and enable the necessary sign-in methods.
 3. Navigate to the "Realtime Database" section and create a new database.
 
+
 ## Configure the Project
 
 ### Update `build.gradle` Files:
 
-In the root-level build.gradle file, add the Google services classpath:
+In the root-level `build.gradle` file, add the Google services classpath:
 
 ```gradle
 buildscript {
@@ -53,23 +56,54 @@ buildscript {
         classpath 'com.google.gms:google-services:4.3.14'
     }
 }
-
+```
 In the app-level build.gradle file, apply the Google services plugin and add Firebase dependencies:
 
 ```gradle
 apply plugin: 'com.google.gms.google-services'
+
 dependencies {
     implementation 'com.google.firebase:firebase-auth:23.5.0'
     implementation 'com.google.firebase:firebase-database:20.2.0'
     implementation 'com.google.android.gms:play-services-maps:18.1.0'
 }
+```
 
-
-### Sync the project:
+### Sync the Project:
 
 Click "Sync Now" in Android Studio to synchronize your project with Gradle files.
 
 ## Build and Run the Application
+
+Open Android Studio and select Run to build and run the application on an emulator or physical device.
+
+## Usage
+
+### Register and Log In
+
+1. Launch the application.
+2. Use the registration screen to create a new account or log in with existing credentials.
+
+### Explore Features
+
+- Navigate through the User Dashboard to view updates and donation history.
+- Access the History Activity to view past donations.
+- Use the Map Integration feature to locate shelters and donation points.
+
+## Firebase Authentication
+
+The application uses Firebase Authentication for managing user accounts. It allows users to securely register, log in, and manage their profiles. For authentication, users provide their email and password to access the application.
+
+## Firebase Realtime Database Structure 
+
+- RegisteredUsers: Contains user details including contact number, full name, password, and username.
+- Volunteers: Stores ratings and details about volunteers.
+- Donations: Keeps records of donations including addresses and donation details.
+
+
+
+
+
 
 
 
